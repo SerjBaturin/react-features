@@ -26,9 +26,9 @@ const Filters = () => {
         {data.map((item, i) => (
           <tr>
             <td key={i}>{item.name}</td>
-            <td key={i + "qwe"}>{item.product}</td>
-            <td key={i + "qwe"}>{item.stocklevel}</td>
-            <td key={i + "qwe"}>{item.price}</td>
+            <td key={i}>{item.product}</td>
+            <td key={i}>{item.stocklevel}</td>
+            <td key={i}>{item.price}</td>
           </tr>
         ))}
       </table>
